@@ -1,2 +1,13 @@
-
+.row{display:flex;
+	}
+.row-1 img{margin:10px}
+.row-2{display:flex;
+.row-3 img{margin:10px}
+	}
+.row-4{display:flex;}
+.row-5 img{margin:10px;}
+	}
+.row-6{display:flex;}
+.row-7 img{margin:10px;}
+	}
 /* Your CSS Code here. */
