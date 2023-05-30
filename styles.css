@@ -1,13 +1,25 @@
-.row{display:flex;
-	}
-.col-sm-1 img{margin:10px}
-.row-2{display:flex;
-.col-sm-2 img{margin:10px}
-	}
-.row-3{display:flex;}
-.col-sm-4 img{margin:10px;}
-	}
-.row-4{display:flex;}
-.col-sm-12 img{margin:10px;}
-	}
+.row-1{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+    
+   
+}
+.row-2{
+	display: grid;
+	grid-template-columns: repeat(6, 2fr);
+    
+    
+}
+.row-3{
+	display: grid;
+	grid-template-columns: repeat(3, 4fr);
+    
+    
+}
+.row-4{
+	display: grid;
+	grid-template-columns: repeat(1, 12fr);
+    
+    
+}
 /* Your CSS Code here. */
